@@ -1,0 +1,28 @@
+:root{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  --bg-color: #4873da;
+  --bg-hover-color: #5e87e8;
+  --bg-q-color: #ebf1fd;
+  --hard-color: #1f48a9;
+}
+button{
+  color: white;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 0 3px rgba(0,0,0,.5);
+  background-color: var(--bg-color);
+  outline: none !important;
+}
+button:active{
+  box-shadow: none;
+}
+button:hover{
+  background-color: var(--bg-hover-color);
+}
