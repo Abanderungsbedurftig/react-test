@@ -1,7 +1,5 @@
 ### Тестовое задание
-- В качестве API я взял сервис [Trivia API](https://opentdb.com/api_config.php)
+- В качестве API выбран сервис [Trivia API](https://opentdb.com/api_config.php)
 - Кодировка передаваемых данных: URL Encoding (RFC 3986)
-- В качестве примера использовал следующий адрес API: `'https://opentdb.com/api.php?amount=10&encode=url3986'`
-- Из сторонних модулей использовал [axios](https://github.com/axios/axios), так как он лучше поддерживается браузерами
-
-В конце теста еще можно посмотреть номера неправильо отвеченных вопросов, наведя курсор на область FALSE
+- В качестве примера выбран следующий URL API: `'https://opentdb.com/api.php?amount=10&encode=url3986'`
+- Из сторонних модулей использовался [axios](https://github.com/axios/axios) из-за лучшей лучшей поддержки браузерами
